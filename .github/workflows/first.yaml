@@ -2,6 +2,6 @@ name: first test
 on: push
 jobs:
   echo:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - run: echo 'Hello, GitHub Actios!'
