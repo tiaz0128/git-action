@@ -6,6 +6,8 @@ jobs:
     steps:
       - run: ls -al
       - uses: actions/checkout@v3
+      - run: ls -al
+      - run: cat .github/worflows/first.yaml
       
   # echo:
   #   runs-on: ubuntu-latest
